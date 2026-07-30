@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>สินค้าทั้งหมด - 6906022510199shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="image/logo.jpg" alt="Logo" class="logo">
+            <h1>6906022510199shop</h1>
+            <p>จำหน่ายเสื้อผ้า กระเป๋า และรองเท้าแฟชั่น</p>
+        </div>
+        
+        <div class="top-menu">
+            <a href="index.html">หน้าแรก</a>
+            <a href="products.html">สินค้าทั้งหมด</a>
+            <a href="cart.html">ตะกร้าสินค้า</a>
+            <a href="confirm.html">ยืนยันการสั่งซื้อ</a>
+        </div>
+        
+        <div class="side-menu">
+            <h3>หมวดหมู่สินค้า</h3>
+            <ul>
+                <li><a href="products.html#tshirt">1. เสื้อยืด (T-Shirts)</a></li>
+                <li><a href="products.html#pants">2. กางเกง (Pants)</a></li>
+                <li><a href="products.html#jacket">3. เสื้อแจ็คเก็ต (Jackets)</a></li>
+                <li><a href="products.html#shoes">4. รองเท้า (Shoes)</a></li>
+                <li><a href="products.html#bags">5. กระเป๋า (Bags)</a></li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            
+<h2>สินค้าทั้งหมด</h2>
+
+<!-- หมวด 1 -->
+<div class="category-section" id="tshirt">
+    <h2>1. เสื้อยืด (T-Shirts)</h2>
+    <div class="product-card">
+        <img src="image/p1.png" alt="T-Shirt 1">
+        <h4>เสื้อยืดทรงโอเวอร์ไซส์</h4>
+        <p class="price">250 บาท</p>
+        <a href="product-detail-1.html" class="btn">ดูรายละเอียด</a>
+        <button onclick="addToCart('P01', 'เสื้อยืดทรงโอเวอร์ไซส์', 250)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+    <div class="product-card">
+        <img src="image/product1.png" alt="T-Shirt 2">
+        <h4>เสื้อยืดสีขาวคอกลม</h4>
+        <p class="price">199 บาท</p>
+        <button onclick="addToCart('P02', 'เสื้อยืดสีขาวคอกลม', 199)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+    <div class="product-card">
+        <img src="image/shit_2.png" alt="T-Shirt 3">
+        <h4>เสื้อยืดลายกราฟิก</h4>
+        <p class="price">220 บาท</p>
+        <button onclick="addToCart('P03', 'เสื้อยืดลายกราฟิก', 220)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+</div>
+
+<!-- หมวด 2 -->
+<div class="category-section" id="pants">
+    <h2>2. กางเกง (Pants)</h2>
+    <div class="product-card">
+        <img src="image/p2.png" alt="Pants 1">
+        <h4>กางเกงยีนส์ขาดเข่า</h4>
+        <p class="price">490 บาท</p>
+        <button onclick="addToCart('P04', 'กางเกงยีนส์ขาดเข่า', 490)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+    <div class="product-card">
+        <img src="image/pant_2.jpg" alt="Pants 2">
+        <h4>กางเกงสแล็คเข้ารูป</h4>
+        <p class="price">550 บาท</p>
+        <button onclick="addToCart('P05', 'กางเกงสแล็คเข้ารูป', 550)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+    <div class="product-card">
+        <img src="image/pant_3.jpg" alt="Pants 3">
+        <h4>กางเกงขาสั้นแฟชั่น</h4>
+        <p class="price">390 บาท</p>
+        <button onclick="addToCart('P06', 'กางเกงขาสั้นแฟชั่น', 390)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+</div>
+
+<!-- หมวด 3 -->
+<div class="category-section" id="jacket">
+    <h2>3. เสื้อแจ็คเก็ต (Jackets)</h2>
+    <div class="product-card">
+        <img src="image/p3.png" alt="Jacket 1">
+        <h4>เสื้อแจ็คเก็ตกันลม</h4>
+        <p class="price">790 บาท</p>
+        <button onclick="addToCart('P07', 'เสื้อแจ็คเก็ตกันลม', 790)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+    <div class="product-card">
+        <img src="image/jacket_2.jpg" alt="Jacket 2">
+        <h4>เสื้อแจ็คเก็ตหนัง</h4>
+        <p class="price">1,250 บาท</p>
+        <button onclick="addToCart('P08', 'เสื้อแจ็คเก็ตหนัง', 1250)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+    <div class="product-card">
+        <img src="image/jacket_3.jpg" alt="Jacket 3">
+        <h4>เสื้อคลุมยีนส์</h4>
+        <p class="price">890 บาท</p>
+        <button onclick="addToCart('P09', 'เสื้อคลุมยีนส์', 890)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+</div>
+
+<!-- หมวด 4 -->
+<div class="category-section" id="shoes">
+    <h2>4. รองเท้า (Shoes)</h2>
+    <div class="product-card">
+        <img src="image/product2.png" alt="Shoes 1">
+        <h4>รองเท้าผ้าใบสีขาว</h4>
+        <p class="price">990 บาท</p>
+        <button onclick="addToCart('P10', 'รองเท้าผ้าใบสีขาว', 990)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+    <div class="product-card">
+        <img src="image/shoes_2.jpg" alt="Shoes 2">
+        <h4>รองเท้าผ้าใบสีชมพู</h4>
+        <p class="price">1,290 บาท</p>
+        <button onclick="addToCart('P11', 'รองเท้าผ้าใบสีชมพู', 1290)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+    <div class="product-card">
+        <img src="image/shoes_3.png" alt="Shoes 3">
+        <h4>รองเท้าหนังผู้ชาย</h4>
+        <p class="price">1,890 บาท</p>
+        <button onclick="addToCart('P12', 'รองเท้าหนังผู้ชาย', 1890)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+</div>
+
+<!-- หมวด 5 -->
+<div class="category-section" id="bags">
+    <h2>5. กระเป๋า (Bags)</h2>
+    <div class="product-card">
+        <img src="image/product3.png" alt="Bag 1">
+        <h4>กระเป๋าเป้สะพายหลัง</h4>
+        <p class="price">690 บาท</p>
+        <button onclick="addToCart('P13', 'กระเป๋าเป้สะพายหลัง', 690)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+    <div class="product-card">
+        <img src="image/bag_2.jpg" alt="Bag 2">
+        <h4>กระเป๋าถือผู้หญิง</h4>
+        <p class="price">1,590 บาท</p>
+        <button onclick="addToCart('P14', 'กระเป๋าถือผู้หญิง', 1590)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+    <div class="product-card">
+        <img src="image/bag_3.png" alt="Bag 3">
+        <h4>กระเป๋าสะพายข้าง</h4>
+        <p class="price">450 บาท</p>
+        <button onclick="addToCart('P15', 'กระเป๋าสะพายข้าง', 450)" class="btn btn-success">เพิ่มลงตะกร้า</button>
+    </div>
+</div>
+
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2026 6906022510199shop.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

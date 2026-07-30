@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ตะกร้าสินค้า - 6906022510199shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="image/logo.jpg" alt="Logo" class="logo">
+            <h1>6906022510199shop</h1>
+            <p>จำหน่ายเสื้อผ้า กระเป๋า และรองเท้าแฟชั่น</p>
+        </div>
+        
+        <div class="top-menu">
+            <a href="index.html">หน้าแรก</a>
+            <a href="products.html">สินค้าทั้งหมด</a>
+            <a href="cart.html">ตะกร้าสินค้า</a>
+            <a href="confirm.html">ยืนยันการสั่งซื้อ</a>
+        </div>
+        
+        <div class="side-menu">
+            <h3>หมวดหมู่สินค้า</h3>
+            <ul>
+                <li><a href="products.html#tshirt">1. เสื้อยืด (T-Shirts)</a></li>
+                <li><a href="products.html#pants">2. กางเกง (Pants)</a></li>
+                <li><a href="products.html#jacket">3. เสื้อแจ็คเก็ต (Jackets)</a></li>
+                <li><a href="products.html#shoes">4. รองเท้า (Shoes)</a></li>
+                <li><a href="products.html#bags">5. กระเป๋า (Bags)</a></li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            
+<h2>ตะกร้าสินค้าของคุณ</h2>
+<p style="margin: 15px 0;">ตรวจสอบรายการสินค้าและดำเนินการสั่งซื้อ</p>
+
+<table>
+    <thead>
+        <tr>
+            <th width="10%">ลำดับ</th>
+            <th width="50%">ชื่อสินค้า</th>
+            <th width="20%">ราคา (บาท)</th>
+            <th width="20%">จัดการ</th>
+        </tr>
+    </thead>
+    <tbody id="cart-body">
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2" style="text-align: right; font-weight: bold;">ราคารวมทั้งหมด:</td>
+            <td colspan="2" style="font-weight: bold; color: #dc3545; font-size: 18px;" id="cart-total">0 บาท</td>
+        </tr>
+    </tfoot>
+</table>
+
+<div style="text-align: right;">
+    <button onclick="confirmOrder()" class="btn btn-success" style="padding: 10px 20px; font-size: 16px;">ยืนยันการสั่งซื้อ</button>
+</div>
+
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2026 6906022510199shop.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
